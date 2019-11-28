@@ -7,11 +7,11 @@
 
 * 功能一：两点导航
 
-  ![MethodOne](./screenshots/method-one-1.jpg)
+  ![MethodOne1](./screenshots/method-one-1.jpg)
 
   要选取起始/目的地点，既可通过下拉框选择，也可直接点击图中按钮选择（连续点击两个地点按钮可自动填充起始地点与目的地点）。
 
-  ![MethodOne](./screenshots/method-one-2.jpg)
+  ![MethodOne2](./screenshots/method-one-2.jpg)
 
   选定好地点后点击确认，地图上会根据出行方式显示最优路线，同时最短路程的距离也会被显示在右侧。点击返程按钮将会交换起始地点与目的地点，再次点击确认后得到返程结果。若无法到达则不会显示任何路径，路程距离处也会显示无法到达。
 

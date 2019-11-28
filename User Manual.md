@@ -6,28 +6,28 @@
 
 * **初始面板**
 
-  ![Main Panel](./Screenshots/main-panel.jpg)
+  ![MainPanel](./Screenshots/main-panel.jpg)
 
   程序运行后会显示如上图的初始面板，左边包含了给定地图和所有可选的地点按钮，右边可以选择出行方式与功能。确认按钮可以开始运行选定功能，重置按钮会重置整个面板。
 
 * 功能一：两点导航
 
-  ![Main Panel](./Screenshots/method-one-1.jpg)
+  ![MethodOne](./Screenshots/method-one-1.jpg)
 
   要选取起始/目的地点，既可通过下拉框选择，也可直接点击图中按钮选择（连续点击两个地点按钮可自动填充起始地点与目的地点）。
 
-  ![Main Panel](./Screenshots/method-one-2.jpg)
+  ![MethodOne](./Screenshots/method-one-2.jpg)
 
   选定好地点后点击确认，地图上会根据出行方式显示最优路线，同时最短路程的距离也会被显示在右侧。点击返程按钮将会交换起始地点与目的地点，再次点击确认后得到返程结果。若无法到达则不会显示任何路径，路程距离处也会显示无法到达。
 
 * 功能二：汇聚地点
 
-  ![Main Panel](./Screenshots/method-two.jpg)
+  ![MethodTwo](./Screenshots/method-two.jpg)
 
   选定目的地点的方式与之前相同，点击保存至按钮选择文件保存路径，点击确认后程序会将所有其他地点到目的地点的路径与距离保存到本地文件中。保存结束后路径字符串将会变更为“保存成功”，若路径无效则会显示“无效路径”。
 
 * 功能三：任意两点最短距离
 
-  ![Main Panel](./Screenshots/method-three.jpg)
+  ![MethodThree](./Screenshots/method-three.jpg)
 
   程序会根据给定出行方式将任意两点间的最短距离保存到给定路径。

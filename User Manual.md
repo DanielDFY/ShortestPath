@@ -1,13 +1,13 @@
 # 用户手册
 * **初始面板**
 
-  ![MainPanel](./Screenshots/main-panel.jpg)
+  ![MainPanel](./screenshots/main-panel.jpg)
 
   程序运行后会显示如上图的初始面板，左边包含了给定地图和所有可选的地点按钮，右边可以选择出行方式与功能。确认按钮可以开始运行选定功能，重置按钮会重置整个面板。
 
 * 功能一：两点导航
 
-  ![MethodOne](./Screenshots/method-one-1.jpg)
+  ![MethodOne](./screenshots/method-one-1.jpg)
 
   要选取起始/目的地点，既可通过下拉框选择，也可直接点击图中按钮选择（连续点击两个地点按钮可自动填充起始地点与目的地点）。
 
@@ -17,12 +17,12 @@
 
 * 功能二：汇聚地点
 
-  ![MethodTwo](./Screenshots/method-two.jpg)
+  ![MethodTwo](./screenshots/method-two.jpg)
 
   选定目的地点的方式与之前相同，点击保存至按钮选择文件保存路径，点击确认后程序会将所有其他地点到目的地点的路径与距离保存到本地文件中。保存结束后路径字符串将会变更为“保存成功”，若路径无效则会显示“无效路径”。
 
 * 功能三：任意两点最短距离
 
-  ![MethodThree](./Screenshots/method-three.jpg)
+  ![MethodThree](./screenshots/method-three.jpg)
 
   程序会根据给定出行方式将任意两点间的最短距离保存到给定路径。

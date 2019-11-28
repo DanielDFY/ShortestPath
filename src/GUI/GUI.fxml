@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" prefHeight="500.0" prefWidth="1100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+            <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="843.0">
+               <children>
+                  <ImageView fitHeight="500.0" fitWidth="856.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Image/map.png" />
+                     </image>
+                  </ImageView>
+                  <Pane fx:id="linePane" prefHeight="500.0" prefWidth="843.0" />
+                  <Pane prefHeight="500.0" prefWidth="843.0">
+                     <children>
+                        <Button fx:id="A" layoutX="42.0" layoutY="163.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="A" textFill="RED" />
+                        <Button fx:id="B" layoutX="88.0" layoutY="374.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="B" textFill="RED" />
+                        <Button fx:id="C" layoutX="115.0" layoutY="473.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="C" textFill="RED" />
+                        <Button fx:id="D" layoutX="184.0" layoutY="121.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="D" textFill="RED" />
+                        <Button fx:id="E" layoutX="198.0" layoutY="183.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="E" textFill="RED" />
+                        <Button fx:id="F" layoutX="209.0" layoutY="256.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="F" textFill="RED" />
+                        <Button fx:id="G" layoutX="215.0" layoutY="334.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="G" textFill="RED" />
+                        <Button fx:id="H" layoutX="234.0" layoutY="452.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="H" textFill="RED" />
+                        <Button fx:id="I" layoutX="331.0" layoutY="48.0" minWidth="-Infinity" mnemonicParsing="false" prefWidth="26.0" style="-fx-background-radius: 100;" text="I" textFill="RED" />
+                        <Button fx:id="J" layoutX="332.0" layoutY="136.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="J" textFill="RED" />
+                        <Button fx:id="K" layoutX="343.0" layoutY="237.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="K" textFill="RED" />
+                        <Button fx:id="L" layoutX="343.0" layoutY="321.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="L" textFill="RED" />
+                        <Button fx:id="M" layoutX="353.0" layoutY="425.0" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-radius: 100;" text="M" textFill="RED" />
+                        <Button fx:id="N" layoutX="436.0" layoutY="21.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="N" textFill="RED" />
+                        <Button fx:id="O" layoutX="464.0" layoutY="108.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="O" textFill="RED" />
+                        <Button fx:id="P" layoutX="479.0" layoutY="183.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="P" textFill="RED" />
+                        <Button fx:id="Q" layoutX="529.0" layoutY="243.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="Q" textFill="RED" />
+                        <Button fx:id="R" layoutX="472.0" layoutY="314.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="R" textFill="RED" />
+                        <Button fx:id="S" layoutX="583.0" layoutY="297.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="S" textFill="RED" />
+                        <Button fx:id="T" layoutX="544.0" layoutY="150.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="T" textFill="RED" />
+                        <Button fx:id="U" layoutX="624.0" layoutY="75.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="U" textFill="RED" />
+                        <Button fx:id="V" layoutX="706.0" layoutY="8.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="V" textFill="RED" />
+                        <Button fx:id="W" layoutX="769.0" layoutY="68.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="W" textFill="RED" />
+                        <Button fx:id="X" layoutX="712.0" layoutY="75.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="X" textFill="RED" />
+                        <Button fx:id="Y" layoutX="733.0" layoutY="243.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="Y" textFill="RED" />
+                        <Button fx:id="Z" layoutX="638.0" layoutY="276.0" mnemonicParsing="false" style="-fx-background-radius: 100;" text="Z" textFill="RED" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <VBox prefHeight="500.0" prefWidth="256.0">
+               <children>
+                  <TabPane prefHeight="300.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab fx:id="methodOneTab" text="两点导航">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <VBox alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="267.0" prefWidth="247.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <HBox alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="200.0">
+                                             <children>
+                                                <Label prefWidth="100.0" text="起始地点: ">
+                                                   <font>
+                                                      <Font name="Heiti SC Medium" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                                <ComboBox fx:id="departureBox" prefWidth="60.0" />
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets />
+                                             </VBox.margin>
+                                          </HBox>
+                                          <HBox alignment="CENTER" layoutX="10.0" layoutY="60.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="200.0">
+                                             <children>
+                                                <Label prefWidth="100.0" text="目的地点: ">
+                                                   <font>
+                                                      <Font name="Heiti SC Medium" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                                <ComboBox fx:id="destinationBox" prefWidth="60.0" />
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0">
+                                             <children>
+                                                <Label text="最短路程: " textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Heiti SC Medium" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label fx:id="resultLabel" alignment="CENTER" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="97.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                   <HBox.margin>
+                                                      <Insets right="-20.0" />
+                                                   </HBox.margin>
+                                                   <padding>
+                                                      <Insets left="5.0" />
+                                                   </padding>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                          <Button fx:id="exchangeButton" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#exchangeEndpoint" prefHeight="30.0" prefWidth="60.0" text="返程" textAlignment="CENTER">
+                                             <font>
+                                                <Font name="Heiti SC Medium" size="13.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets top="10.0" />
+                                             </VBox.margin>
+                                          </Button>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                      <Tab fx:id="methodTwoTab" text="汇聚地点">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <VBox alignment="CENTER" prefHeight="247.0" prefWidth="247.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <HBox alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="200.0">
+                                             <children>
+                                                <Label prefHeight="60.0" prefWidth="100.0" text="目的地点: ">
+                                                   <font>
+                                                      <Font name="Heiti SC Medium" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                                <ComboBox fx:id="mergeBox" prefWidth="60.0" />
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets top="-12.0" />
+                                             </VBox.margin>
+                                          </HBox>
+                                          <Button fx:id="mergeOutPutButton" mnemonicParsing="false" text="保存至">
+                                             <VBox.margin>
+                                                <Insets bottom="10.0" top="15.0" />
+                                             </VBox.margin>
+                                             <font>
+                                                <Font name="Heiti SC Medium" size="13.0" />
+                                             </font>
+                                          </Button>
+                                          <Label fx:id="mergeOutPutLabel" alignment="CENTER" minHeight="-Infinity" prefWidth="230.0" text="未选定路径">
+                                             <font>
+                                                <Font name="Heiti SC Medium" size="13.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets bottom="15.0" top="10.0" />
+                                             </VBox.margin>
+                                          </Label>
+                                       </children></VBox>
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                        <Tab fx:id="methodThreeTab" text="任意两点">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <VBox alignment="CENTER" prefHeight="247.0" prefWidth="247.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutX="19.0" layoutY="159.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="230.0" text="任意两地点间最短路径">
+                                             <font>
+                                                <Font name="Heiti SC Medium" size="18.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets top="-20.0" />
+                                             </VBox.margin>
+                                          </Label>
+                                          <Button fx:id="entireOutPutButton" mnemonicParsing="false" text="保存至">
+                                             <font>
+                                                <Font name="Heiti SC Medium" size="13.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets bottom="10.0" top="15.0" />
+                                             </VBox.margin>
+                                          </Button>
+                                          <Label fx:id="entireOutPutLabel" alignment="CENTER" minHeight="-Infinity" prefWidth="230.0" text="未选定路径">
+                                             <font>
+                                                <Font name="Heiti SC Medium" size="13.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets bottom="15.0" top="10.0" />
+                                             </VBox.margin>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children></AnchorPane>
+                          </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+                  <VBox alignment="CENTER" prefHeight="80.0" prefWidth="100.0">
+                     <children>
+                        <Button fx:id="resetButton" alignment="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#reset" prefHeight="50.0" prefWidth="80.0" text="重置">
+                           <font>
+                              <Font name="Heiti SC Medium" size="15.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <HBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="100.0" prefWidth="150.0">
+                           <children>
+                              <RadioButton fx:id="onFootButton" mnemonicParsing="false" selected="true" text="步行">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="way" />
+                                 </toggleGroup>
+                                 <font>
+                                    <Font name="Heiti SC Medium" size="13.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton fx:id="byCarButton" mnemonicParsing="false" text="驾车" toggleGroup="$way">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Heiti SC Medium" size="13.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton fx:id="byBusButton" mnemonicParsing="false" text="公交" toggleGroup="$way">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Heiti SC Medium" size="13.0" />
+                                 </font>
+                              </RadioButton>
+                           </children>
+                        </VBox>
+                        <Button fx:id="confirmButton" alignment="CENTER" mnemonicParsing="false" onAction="#confirm" prefHeight="50.0" prefWidth="80.0" text="确认">
+                           <HBox.margin>
+                              <Insets right="30.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Heiti SC Medium" size="15.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

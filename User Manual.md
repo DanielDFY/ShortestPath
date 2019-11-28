@@ -1,9 +1,4 @@
 # 用户手册
-
-> Project 2 Shortest path
->
-> 17级软件工程 丁凡宇 16307130246
-
 * **初始面板**
 
   ![MainPanel](./Screenshots/main-panel.jpg)
